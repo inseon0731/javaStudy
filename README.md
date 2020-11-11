@@ -1,1 +1,1 @@
-javaStudy
+(https://github.com/whiteship/live-study/issues) 로 부터 시작된 온라인 스터디
