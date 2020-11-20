@@ -38,7 +38,7 @@ JVM(Java Virtual Machine) : 소프트웨어로 구성된 에뮬레이터로서 �
 ---
 JDK가 JRE를 포함한다. JDK는 JRE뿐 아니라 개발에 필요한 도구(java, javac 등)를 포함한다.
 ![img07](./img07.jpg)
-<img src="./week01/img07.jpg" width="500">
+<img src="./img07.jpg" width="500">
 
 JDK(Java Developement Kit, 자바 가상 머신)
 * 자바로 프로그램을 개발하기 위해 필요한 기본 도구
