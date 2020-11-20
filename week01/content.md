@@ -37,7 +37,6 @@ JVM(Java Virtual Machine) : 소프트웨어로 구성된 에뮬레이터로서 �
 ### 7) JDK와 JRE의 차이 ###
 ---
 JDK가 JRE를 포함한다. JDK는 JRE뿐 아니라 개발에 필요한 도구(java, javac 등)를 포함한다.
-![img07](./img07.jpg)
 <img src="./img07.jpg" width="500">
 
 JDK(Java Developement Kit, 자바 가상 머신)
