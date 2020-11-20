@@ -4,12 +4,27 @@
 자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법을 익히기.
 
 ### 1) 프리미티브 타입 종류와 값의 범위 그리고 기본 값 ###
+자바는 프리미티브 타입(primitive types)으로 8개의 기본형을 제공한다.
+
+|Type|Contains|Default|Size|Range|
+|---|--------|---|---|----------|
+|boolean|true or false|false|1 bit|NA|
+|char|Unicode character|\u0000|16 bits|\u0000 to \uFFFF|
+|byte|Signed integer|0|8 bits|-128 to 127|
+|short|Signed integer|0|16 bits|-32768 to 32767|
+|int|Signed integer|0|32 bits|-2147483648 to 2147483647|
+|long|Signed integer|0|64bits|-9223372036854775808 to 9223372036854775807|
+|float|IEEE 754 floating point|0.0|32 bits|1.4E-45 to 3.4028235E+38|
+|double|IEEE 754 floating point|0.0|64 bits|4.9E-324 to 1.7976931348623157E+308|
 
 
 ### 2) 프리미티브 타입과 레퍼런스 타입 ###
 
 
 ### 3) 리터럴 ###
+소스코드 내에서 고정된 값을 표현하는 용어이다.
+보통 정수, 부동소수점 숫자, 문자(''), 문자열(""), 예약어를 포함한다.
+예를 들어 < 1 1.0 '1' 1L "one" true false null > 등이 있다. 
 
 
 ### 4) 변수 선언 및 초기화하는 방법 ###
