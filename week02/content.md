@@ -6,8 +6,8 @@
 
 
 ## 1) 프리미티브 타입 종류와 값의 범위 그리고 기본 값 ##
-자바는 프리미티브 타입(primitive types)으로 8개의 기본형을 제공한다.
-4개의 정수 타입과 2개의 부동소수점 타입은 각각 표현 가능한 비트의 수가 다르며 그 수의 범위 안에서 표현 할 수 있다.
+* 자바는 프리미티브 타입(primitive types)으로 8개의 기본형을 제공한다.
+* 4개의 정수 타입과 2개의 부동소수점 타입은 각각 표현 가능한 비트의 수가 다르며 그 수의 범위 안에서 표현 할 수 있다.
 
 |Type|Contains|Default|Size|Range|
 |---|--------|---|---|----------|
@@ -39,7 +39,8 @@
 * 변수는 사용하기 전에 반드시 선언해야 한다.
 * 변수 선언시 초기화를 할 수 있다. `int i=0;` `String s = readLine();` `int data={x+1, x+2, x+3};`
 * 단일 변수 선언문은 두개 이상의 변수를 선언하고 초기화 할 수 있으며, 선언된 유형이 동일해야 한다.
-	* 각각은 ','로 구분 되어야 함 `float x = 1.0f, y = 2.0f;`
+	* 각각은 ','로 구분 되어야 한다
+	* ex) `float x = 1.0f, y = 2.0f;`
 
 
 ## 5) 변수의 스코프와 라이프타임 ##
@@ -66,7 +67,7 @@ void method() {
 * 확대형 변환 (widening conversion)
 	* 작은 크기에 저장 된 데이터를 큰 크기에 저장
 	* 값의 손실이 발생하지 않음 → 자동으로 이루어짐
-	* ex) `int literal -> double variable` `char literal -> int variable`
+	* ex) `int literal → double variable` `char literal → int variable`
 * 축소형 변환 (narrowing conversion)
 	* 큰 크기에 저장 된 데이터를 작은 크기에 저장
 	* 값의 손실이 발생 가능 → 명시적인 형 변환 문장에 의해 이루어짐
@@ -115,4 +116,4 @@ o.bar();
 
 
 ## 참고 ##
-<Java in a Nutshell, Benjamin J.Evans David Flanagan>
+* Java in a Nutshell, *Benjamin J.Evans David Flanagan*
