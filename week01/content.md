@@ -25,13 +25,13 @@
 
 ## 5) JIT 컴파일러란 무엇이며 어떻게 동작하는지 ##
 * JIT(Just-In-Time) 컴파일러 : 바이트 코드를 읽어 런타임에 기계어로 변환하는 컴파일러이다. 
-<img src="./img05.png" width="400">
-참고 : https://m.blog.naver.com/ki630808/221844888233
+<img src="./img05.png" width="400"><br>
+* 참고 : https://m.blog.naver.com/ki630808/221844888233
 * 런타임에 바이트 코드를 기계어로 컴파일한다.
 * 컴파일된 코드를 명령이 수행되는 프로세서로 전송한다.
 
 ## 6) JVM 구성 요소 ##
-<img src="./img06.png" width="400">
+<img src="./img06.png" width="400"><br>
 * 참고 : https://d2.naver.com/helloworld/1230
 * 클래스 로더 : 자바는 런타임에 클래스를 처음으로 참조할 때 해당 클래스를 로드하고 링크하는 특징이 있다.
 * 런타임 데이터 영역 : JVM이라는 프로그램이 운영체제 위에서 실행되면서 할당받는 메모리 영역이다.
@@ -39,8 +39,7 @@
 
 ## 7) JDK와 JRE의 차이 ##
 * JDK가 JRE를 포함한다. JDK는 JRE뿐 아니라 개발에 필요한 도구(java, javac 등)를 포함한다.
-<img src="./img07.jpg" width="500">
-* 참고 : https://d2.naver.com/helloworld/1230
+<img src="./img07.jpg" width="500"><br>
 
 ### JDK(Java Developement Kit, 자바 가상 머신) ###
 * 자바로 프로그램을 개발하기 위해 필요한 기본 도구
