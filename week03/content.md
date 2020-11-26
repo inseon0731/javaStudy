@@ -16,6 +16,31 @@
 |--|var--|var 값 1 감소. var 값 감소시키기 전에 평가|단항|
 ||--var|var 값 1 감소. var 값 감소시킨 후 평가|단항|
 
+```java
+public class week03{
+     public static void main(String []args){
+        int a=5, b=2;
+        
+        int sum = a+b;
+        System.out.println("a+b=" + sum); // output 7
+        int sub = a-b;
+        System.out.println("a-b=" + sub); // output 3
+        int mul = a*b;
+        System.out.println("a*b=" + mul); // output 10
+        int div = a/b;
+        System.out.println("a/b=" + div); // output 2
+        int mod = a%b;
+        System.out.println("a%b=" + mod); // output 1
+        int prefixA = ++a;
+        System.out.println("a의 전위 증가:" + prefixA); // output 6
+        System.out.println("변수 a의 값" + a); // output 6
+        int postfixB = b++;
+        System.out.println("b의 후위 증가:" + postfixB); // output 2
+        System.out.println("변수 b의 값" + b); // output 3
+     }
+}
+```
+
 ## 2) 비트 연산자 ##
 
 
